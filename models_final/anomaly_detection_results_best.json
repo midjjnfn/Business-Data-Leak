@@ -1,0 +1,74 @@
+{
+    "AADL": {
+        "threshold": 0.001302,
+        "anomalies": [
+            "C:\\Users\\rammo\\Desktop\\Data sensitivity discovery\\Anomaly Detection in docs\\Scaping dataset\\scribd\\AADL\\Import Demand Function.pdf"
+        ]
+    },
+    "Air Algérie": {
+        "threshold": 0.001298,
+        "anomalies": [
+            "C:\\Users\\rammo\\Desktop\\Data sensitivity discovery\\Anomaly Detection in docs\\Scaping dataset\\scribd\\Air Algérie\\Telex Samir.pdf"
+        ]
+    },
+    "Algérie Poste": {
+        "threshold": 0.001302,
+        "anomalies": [
+            "C:\\Users\\rammo\\Desktop\\Data sensitivity discovery\\Anomaly Detection in docs\\Scaping dataset\\scribd\\Algérie Poste\\Stratégie nationale de prévention LCB & LCT pour 2024-2026.pdf"
+        ]
+    },
+    "Algérie Télécom": {
+        "threshold": 0.001301,
+        "anomalies": [
+            "C:\\Users\\rammo\\Desktop\\Data sensitivity discovery\\Anomaly Detection in docs\\Scaping dataset\\scribd\\Algérie Télécom\\Careful Support 13 May 2019 598528.pdf"
+        ]
+    },
+    "Crédit Populaire dAlgérie": {
+        "threshold": 0.001302,
+        "anomalies": [
+            "C:\\Users\\rammo\\Desktop\\Data sensitivity discovery\\Anomaly Detection in docs\\Scaping dataset\\scribd\\Crédit Populaire dAlgérie\\Demande de Relevé Bancaire.pdf"
+        ]
+    },
+    "Emploitic": {
+        "threshold": 0.001302,
+        "anomalies": [
+            "C:\\Users\\rammo\\Desktop\\Data sensitivity discovery\\Anomaly Detection in docs\\Scaping dataset\\scribd\\Emploitic\\Nouveau Document Texte.pdf"
+        ]
+    },
+    "ICOSNET": {
+        "threshold": 0.001302,
+        "anomalies": [
+            "C:\\Users\\rammo\\Desktop\\Data sensitivity discovery\\Anomaly Detection in docs\\Scaping dataset\\scribd\\ICOSNET\\Sensor de Nível e Supressor.pdf"
+        ]
+    },
+    "Ooredoo": {
+        "threshold": 0.001301,
+        "anomalies": [
+            "C:\\Users\\rammo\\Desktop\\Data sensitivity discovery\\Anomaly Detection in docs\\Scaping dataset\\scribd\\Ooredoo\\Surat Pernyataan Perubahan Proses Migrasi Prabayar Ke Pascabayar Indosat Ooredoo 09042017 PDF.pdf"
+        ]
+    },
+    "Ouedkniss": {
+        "threshold": 0.001302,
+        "anomalies": [
+            "C:\\Users\\rammo\\Desktop\\Data sensitivity discovery\\Anomaly Detection in docs\\Scaping dataset\\scribd\\Ouedkniss\\واقع و افاق التجارة الالكترونية في الجزائر.pdf"
+        ]
+    },
+    "sonatrach": {
+        "threshold": 0.001301,
+        "anomalies": [
+            "C:\\Users\\rammo\\Desktop\\Data sensitivity discovery\\Anomaly Detection in docs\\Scaping dataset\\scribd\\sonatrach\\sonatrach.pdf"
+        ]
+    },
+    "Sonelgaz": {
+        "threshold": 0.001301,
+        "anomalies": [
+            "C:\\Users\\rammo\\Desktop\\Data sensitivity discovery\\Anomaly Detection in docs\\Scaping dataset\\scribd\\Sonelgaz\\05.2024 - 2028 - Cert Sonelgaz - Ae 0048g2024 - Elvalhalcor S.A - Signed Stampes.pdf"
+        ]
+    },
+    "Yassir": {
+        "threshold": 0.001302,
+        "anomalies": [
+            "C:\\Users\\rammo\\Desktop\\Data sensitivity discovery\\Anomaly Detection in docs\\Scaping dataset\\scribd\\Yassir\\Yassirالعرض 2.pdf"
+        ]
+    }
+}
