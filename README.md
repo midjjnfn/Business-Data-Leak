@@ -4,15 +4,6 @@
 > 🧠 Built with Autoencoders, Isolation Forest, OCR, and SBERT.  
 
 
----
-
-## 📸 Demo
-
-![App Demo](demo.gif) <!-- Replace with actual GIF filename -->
-
-> 🖥️ Upload a PDF or auto-scrape web documents  
-> 🧠 Analyze sensitive content per-page  
-> 🔎 Detect anomalies using trained company-specific models  
 
 ---
 
@@ -45,6 +36,16 @@
 - 🏢 **Scraped PDFs** from Algerian companies:
 
 
+---
+
+
+## 📸 Demo
+
+![App Demo](demo.gif) <!-- Replace with actual GIF filename -->
+
+> 🖥️ Upload a PDF or auto-scrape web documents  
+> 🧠 Analyze sensitive content per-page  
+> 🔎 Detect anomalies using trained company-specific models  
 ---
 
 ## 🛠️ Setup & Run
