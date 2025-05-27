@@ -23,7 +23,6 @@
 - 🧠 Embeddings via **Sentence-BERT (SBERT)**
 - 🌐 **Web scraping** to collect public documents (Scribd, Google)
 - 💻 Streamlit-based interactive web app
-- 📊 Evaluated on benchmark and Algerian enterprise data
 
 ---
 
