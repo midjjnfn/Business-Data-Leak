@@ -2,7 +2,7 @@
 
 > Detect confidential data leaks in business documents using AI-powered anomaly detection.  
 > 🧠 Built with Autoencoders, Isolation Forest, OCR, and SBERT.  
-> 🎓 Bachelor’s Thesis | Cybersecurity | Numidia Institute of Technology
+
 
 ---
 
