@@ -1,56 +1,61 @@
-# 🕵️‍♀️ Threat Intelligence Tool for Business Data Leak Detection
+# 🛡️ Threat Intelligence Tool for Business Data Leak Detection
 
-A machine learning-based anomaly detection system designed to uncover **confidential business data leaks** within PDF documents, scraped from the web or uploaded by users. Developed as part of a Bachelor's thesis in Cybersecurity.
-
----
-
-## 📚 Overview
-
-This project leverages **unsupervised learning techniques** — specifically **Autoencoders** and **Isolation Forests** — to detect anomalies in business documents. It supports:
-
-- 🔍 Sensitive document classification  
-- 🧠 Semantic embedding with Sentence-BERT  
-- 🧪 Evaluation on real-world Algerian company data  
-- 📄 PDF + OCR analysis  
-- 🌐 Web scraping for PDF collection  
-- 💡 Interactive Streamlit interface  
+> Detect confidential data leaks in business documents using AI-powered anomaly detection.  
+> 🧠 Built with Autoencoders, Isolation Forest, OCR, and SBERT.  
+> 🎓 Bachelor’s Thesis | Cybersecurity | Numidia Institute of Technology
 
 ---
 
-## 🧠 Technologies Used
+## 📸 Demo
 
-- Python 3.12  
-- Sentence-BERT (all-mpnet-base-v2)  
-- Autoencoders (Keras / TensorFlow)  
-- Isolation Forest (Scikit-learn)  
-- OCR with Tesseract  
-- PDF parsing via PyMuPDF + LangChain  
-- Streamlit for UI  
-- Selenium for automated web scraping  
+![App Demo](demo.gif) <!-- Replace with actual GIF filename -->
+
+> 🖥️ Upload a PDF or auto-scrape web documents  
+> 🧠 Analyze sensitive content per-page  
+> 🔎 Detect anomalies using trained company-specific models  
 
 ---
 
-## 📊 Evaluation
+## 🚀 Features
 
-Evaluation was conducted on:
-
-- 📰 20 Newsgroups (Benchmark dataset)  
-- 📑 Scraped PDFs from 12 Algerian companies (Ooredoo, Sonatrach, Algérie Poste, etc.)
-
-Autoencoder models achieved up to 81.8% F1-score (Icosnet) and 100% recall (Algérie Télécom).
-
----
-
-## 🏗️ Future Work
-
-- Real-time document leak monitoring  
-- Multi-level sensitivity classification (e.g., internal, confidential, restricted)  
-- Adaptive threshold tuning  
-- Integration with named entity recognition (NER) for sensitive term detection  
+- 🔍 Semantic anomaly detection with **Autoencoders** & **Isolation Forest**
+- 📄 Analyze real-world business PDFs with **OCR and text extraction**
+- 🧠 Embeddings via **Sentence-BERT (SBERT)**
+- 🌐 **Web scraping** to collect public documents (Scribd, Google)
+- 💻 Streamlit-based interactive web app
+- 📊 Evaluated on benchmark and Algerian enterprise data
 
 ---
 
-## 🧑‍💻 Author
+## 🧠 Technologies
 
-Mouna RAMDANI  
-Numidia Institute of Technology
+| Area              | Stack Used |
+|-------------------|------------|
+| ML & DL           | TensorFlow, Scikit-learn, SBERT |
+| NLP               | Sentence-Transformers (all-mpnet-base-v2) |
+| OCR & PDF Parsing | Tesseract, PyMuPDF, LangChain |
+| Web UI            | Streamlit |
+| Scraping          | Selenium |
+| Language          | Python 3.12 |
+
+---
+
+## 📊 Datasets 
+
+- 📚 **20 Newsgroups**: Baseline anomaly detection
+- 🏢 **Scraped PDFs** from Algerian companies:
+
+
+---
+
+## 🛠️ Setup & Run
+
+```bash
+git clone https://github.com/your-username/midjjnfn.git
+cd midjjnfn
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the app
+streamlit run test_4.py
