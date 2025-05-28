@@ -41,7 +41,7 @@
 
 ## 📸 Demo
 
-![App Demo](demo.gif) <!-- Replace with actual GIF filename -->
+![App Demo](demo_3.gif) <!-- Replace with actual GIF filename -->
 
 > 🖥️ Upload a PDF or auto-scrape web documents  
 > 🧠 Analyze sensitive content per-page  
