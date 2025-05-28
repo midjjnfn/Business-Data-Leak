@@ -8,4 +8,4 @@ langchain
 langchain-community
 seleniumbase
 PyMuPDF
-pytesseract
+
