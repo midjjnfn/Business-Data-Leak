@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from sentence_transformers import SentenceTransformer
 from langchain_pymupdf4llm import PyMuPDF4LLMLoader
 from langchain_community.document_loaders.parsers.images import TesseractBlobParser
-import pytesseract
+# import pytesseract
 from tensorflow.keras.models import load_model
 import unicodedata
 import time
@@ -17,7 +17,7 @@ import os
 import ssl
 
 ssl._create_default_https_context = ssl._create_unverified_context
-pytesseract.pytesseract.tesseract_cmd = r"C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
+# pytesseract.pytesseract.tesseract_cmd = r"C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
 
 societies = [
     "AADL", "Air Algérie", "Algérie Poste", "Algérie Télécom",
@@ -95,7 +95,8 @@ def perform(society):
         for pdf_file in pdf_files:
             file_path = os.path.join(save_dir, pdf_file)
             st.markdown(f"### 📄 {pdf_file}")
-            loader = PyMuPDF4LLMLoader(file_path, extract_images=True, images_parser=TesseractBlobParser(), mode="single", table_strategy="lines")
+            loader = PyMuPDF4LLMLoader(file_path, extract_images=false, mode="single")
+            # images_parser=TesseractBlobParser(), table_strategy="lines"
             docs = loader.load()
             texts = [doc.page_content for doc in docs]
             errors, anomalies = analyze_texts(texts, model, embedding_model, threshold)
