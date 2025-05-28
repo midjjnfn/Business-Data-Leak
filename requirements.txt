@@ -1,0 +1,11 @@
+streamlit
+tensorflow
+numpy
+pandas
+matplotlib
+sentence-transformers
+langchain
+langchain-community
+seleniumbase
+PyMuPDF
+pytesseract
