@@ -33,7 +33,6 @@
 ## 📊 Datasets 
 
 - 📚 **20 Newsgroups**: Baseline anomaly detection
-- 🏢 **Scraped PDFs** from Algerian companies:
 
 
 ---
