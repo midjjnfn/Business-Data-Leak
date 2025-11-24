@@ -12,7 +12,6 @@
 - 🔍 Semantic anomaly detection with **Autoencoders** & **Isolation Forest**
 - 📄 Analyze real-world business PDFs with **OCR and text extraction**
 - 🧠 Embeddings via **Sentence-BERT (SBERT)**
-- 🌐 **Web scraping** to collect public documents (Scribd, Google)
 - 💻 Streamlit-based interactive web app
 
 ---
